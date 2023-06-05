@@ -1,0 +1,388 @@
+                 /* responsive */
+
+/* celular */
+
+/* menu */
+@media screen and (max-width:767px){
+   body{
+    flex-direction: column;
+    height: 100vh;
+   }
+
+   ul{
+    display: flex;
+    list-style: none;
+   }
+ nav{
+    display: flex;
+ }
+   header .img{
+    margin: 0em;
+   }
+   header{
+    height: 5em;
+   }
+   /* primer index menu */
+   .unoli{
+    margin-left: 3em ;
+    margin-top: -11.5em;
+  }
+   .lidos{
+    margin-top: -6em;
+   }
+   .litress{
+    margin-top: -5.5em;
+   }
+   .licuatroo{
+    margin-top: -6.5em;
+   }
+   /* demas menus */
+    .liuno{
+    margin-top: -4.4em;
+    margin-left: 2.7em;
+   }
+  .dosli{
+    margin-top: 1em;
+  }
+  .tresli, .treslii{
+    margin-top: 1.5em;
+  }
+  .cuatroli, .cuatrolii{
+    margin-top: 0.7em;
+  }
+  
+  
+.logojss{
+    margin-top: 0.4em;
+    width: 4em;
+}
+
+/* menu hamburguesa */
+
+
+
+
+
+/* primer index */
+main{
+    width: 95%;
+    margin: auto;
+   
+    
+}
+.iniciodiv{
+    flex-direction: column;
+    
+}
+.logotipo{
+    margin-top: -0.1em;
+    margin-left: 4.5em;
+    width: 14em;
+}
+
+.holasoy{
+    line-height: 1.2em;
+margin-left: 0em;
+text-align: center;
+margin-top: -0.5em;
+}
+.desarrollador{
+    
+    text-align: center;
+    margin-left: 0em;
+    margin-top: -0.3em;
+    color: rgb(20, 26, 97);
+}
+.contactme{
+    margin-top: 4em ;
+    margin-left: 12em;
+    
+}
+
+.yop{
+    
+    width: 17em;
+    margin-left: 3em;
+    margin-top: -1em;
+}
+   
+/* index 2 */
+
+.aeletras{
+    font-size: 10rem;
+    margin-top: -1.4em;
+    margin-left: 0.5em;
+}
+.habilidades{
+    font-size: 0.6em;
+    margin-top: -22em;
+    margin-left: 0.5em;
+   
+}
+.cuadrao{
+margin-top: -24.2em;
+width: 0.7em;
+margin-left: 0.4em;
+}
+.letrota{
+    margin-top: -2.5em;
+}
+
+
+.explogos{
+    margin-top: 11em;
+   justify-content: space-around;
+    
+}
+.codigondario{
+    width: 2.3em;
+    margin-left: -0.9em;
+}
+.codigondarioo{
+    width: 2.5em;
+    margin-left: 1em;
+}
+.mastres{
+font-size: 0.8rem;
+margin-right: -3em;
+}
+.masdos{
+    font-size: 0.8rem;
+    margin-left: -3em;
+}
+
+.muchotexto{
+    font-size: 0.9rem;
+    text-align:center;
+margin: 3em 3em 0em 3em;
+
+}
+.muchotexto br{
+    display: none;
+}
+.barritas{
+    margin-left: 3.5em;
+    margin-top: 2.5em;
+}
+
+/* index tercero tps */
+/* main{
+     background-color: aqua;
+} */
+
+.tpstodo{
+    flex-direction: column;
+}
+
+.lat{
+    font-size: 10rem;
+    margin-left: 0.78em;
+    margin-top: 0.2em;
+ 
+}
+.laburo{
+    font-size: 0.6em;
+    margin-top: 10.5em;
+    margin-left: 6em;
+}
+.cuadradito{
+width: 0.7em;
+margin-top: 6.9em;
+}
+.letrasa{
+margin-top: 1em;
+}
+
+.wrapp{
+    margin-left: 2.2em;
+    margin-top: 8em;
+}
+.contenedor{
+    margin-bottom: 0.9em;
+    margin-right: 0.9em;
+cursor: url(imagenes/manito.png), auto;
+}
+
+.contenedor{
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+     display: flex;
+     float: left;
+     background: #fff;
+     
+}
+.contenedor .mascara{
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.trabajouno{
+    width: 9em;
+    height: 9em;
+ display: block;
+    position: relative;
+}
+.html{
+    display: inline-block;
+    padding: 0.02em 0.03em;
+    background: rgb(6, 21, 102);
+    color: white;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.css{
+    display: inline-block;
+    padding: 0.02em 0.03em;
+    background: rgb(6, 21, 102);
+    color: white;
+   
+}
+
+/* cuarto index contactame */
+
+
+.cgrande{
+    font-size: 10rem;
+    margin-left: 0.78em;
+    margin-top: 0.2em;
+ 
+}
+.contacto{
+    font-size: 0.6em;
+    margin-top: 10em;
+    margin-left: 6em;
+}
+.cuadradoo{
+width: 0.7em;
+margin-top: 6em;
+}
+.cmas{
+margin-top: 1em;
+}
+
+.contactarmetoodo{
+    flex-direction: column;
+    align-content: center;
+}
+.formularios{
+    margin-left: 1em;
+    
+}
+/* nombre */
+.divnombre{
+    display: flex;
+    border: 0.15rem solid rgb(104, 161, 210);
+    margin-top: 8em;
+    padding: 0.25em 0em 0.25em 0em;
+    margin-right: 3em;
+    margin-left: 2.4em;
+    }
+    .nombre{
+        border: none ;
+        outline: none;
+        margin-left: 0.5em;
+        font-weight: 700;
+        opacity: 60%;
+    
+        width: 120%;
+    }
+    .usuario{
+        margin-left: 0.2em;
+    }
+    
+    /* email */
+    .divemail{
+        display: flex;
+        border: 0.15rem solid rgb(104, 161, 210);
+        margin-top: 1.1em;
+        padding: 0.25em 0em 0.25em 0em;
+        margin-right: 3em;
+        margin-left: 2.4em;
+        
+        }
+        .email{
+            border: none ;
+            outline: none;
+            margin-left: 0.5em;
+            font-weight: 700;
+            opacity: 60%;
+            width: 87%; 
+           
+        } 
+        .fotimail{
+            margin-left: 0.2em;
+        }
+        /* asunto */
+        .divasunto{
+            border: 0.15rem solid rgb(104, 161, 210);
+            margin-top: 1.1em;
+            padding: 0.25em 0em 0.25em 0em;
+          margin-right: 3em;
+          margin-left: 2.4em;
+        }
+        .asunto{
+            color: rgb(21, 113, 192) ;
+            margin-left: 0.2em;
+           position: absolute;
+           
+           
+        }
+        .asuntoborde{
+            border: none; 
+            outline: none; 
+            width:  65% ;
+            padding-left: 6.2em;
+        }
+    
+        /* ayuda */
+    .ayuda{
+        margin-top: 1.1em;
+      width: 22em;
+          border: 0.15rem solid rgb(21, 113, 192) ;
+    
+        outline: none;
+        font-weight: 900;
+        opacity: 60%; 
+    resize: none;
+    padding: 1em 1.5em 9em 1.5em;
+    overflow: hidden;
+    }
+    
+    .angulo{
+        width: 1.5em;
+        position: absolute;
+        margin-top: 10em;
+        margin-left: -1.5em;
+    }
+    
+    .divmailfinal{
+        display: flex;
+        margin-top: 1.5em;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .mailultima{
+        margin-right: 1.5em;
+        width: 2em;
+        margin-bottom: 0.6em;
+    }
+    .joakidosdos{
+       margin-top: 0.5em; 
+    }
+
+
+
+
+
+
+}
