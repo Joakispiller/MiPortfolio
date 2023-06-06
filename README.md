@@ -17,3 +17,5 @@ Las medidas que tome en referencias son:
 
 .Iphone 12 Pro de 390px X 844px
 
+<! --Tuve que reinciar el git porque me dio error, por eso hay tan pocos commits-->
+
