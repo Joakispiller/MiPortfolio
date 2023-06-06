@@ -10,54 +10,111 @@
    }
 
    ul{
-    display: flex;
     list-style: none;
    }
- nav{
-    display: flex;
- }
-   header .img{
-    margin: 0em;
-   }
-   header{
+ 
+/* menu hamburguesa */
+.headerdos{
     height: 5em;
-   }
-   /* primer index menu */
-   .unoli{
-    margin-left: 3em ;
-    margin-top: -11.5em;
-  }
-   .lidos{
-    margin-top: -6em;
-   }
-   .litress{
-    margin-top: -5.5em;
-   }
-   .licuatroo{
-    margin-top: -6.5em;
-   }
-   /* demas menus */
-    .liuno{
-    margin-top: -4.4em;
-    margin-left: 2.7em;
-   }
-  .dosli{
-    margin-top: 1em;
-  }
-  .tresli, .treslii{
-    margin-top: 1.5em;
-  }
-  .cuatroli, .cuatrolii{
-    margin-top: 0.7em;
-  }
+    
+}
+.menuuno{
+    display: none;
+}
+.navuno{
+    display: none;
+}
+.navresponsive{
+    display: block;
+   position: relative;
+ height: 5em;
+   background-color: rgb(22, 107, 187);
   
   
-.logojss{
-    margin-top: 0.4em;
-    width: 4em;
+ }
+ 
+.checkbox, .xxx, .burga{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    top: 1.5em;
+    right: 1.2em;
+cursor: pointer;
+
+}
+ .xxx, .burga{
+    pointer-events: none;
+    width: 3em;
+    height: 3em;
+    top: 1em;
+    right: 0.8em;
+ }
+ .checkbox{
+    opacity: 0;
+ }
+
+ .xxx{
+    display: none;
+ }
+.checkbox:checked ~ .burga{
+    display: none;
+}
+.checkbox:checked ~ .xxx{
+    display: block;
 }
 
-/* menu hamburguesa */
+
+.menuresponsive{
+   display: none;
+    position: absolute;
+    top: 5em;
+    right: 0em;
+   
+}
+.menuresponsive li a{
+text-decoration: none;
+color: rgb(6, 21, 102);
+background-color: rgb(33, 126, 214);
+display: block;
+padding: 1em 4em 1em 1em;
+border: 0.1em solid transparent;
+
+}
+.imguno{
+    margin-left: 1em; 
+   top: 0.7em;
+}
+.imgdos{
+    margin-left: 1em;
+    top: 3.8em; 
+}
+.imgtres{
+    margin-left: 1em;
+    top: 7em;
+}
+.imgcuatro{
+    margin-left: 1em;
+    top: 9.6em;
+}
+.menuresponsive img{
+    position: absolute;
+    
+}
+
+.aahe:hover{
+    background-color: rgb(22, 107, 187)
+}
+.aa:hover{
+    background-color: rgb(22, 107, 187)
+}
+
+.checkbox:checked ~ .menuresponsive{
+    display: block;
+ z-index: 2;
+}
+.logojsss{
+    margin-top: 0.3em;
+}
 
 
 
@@ -67,17 +124,19 @@
 main{
     width: 95%;
     margin: auto;
-   
+ 
     
 }
 .iniciodiv{
     flex-direction: column;
-    
+   
 }
+
 .logotipo{
     margin-top: -0.1em;
     margin-left: 4.5em;
     width: 14em;
+   
 }
 
 .holasoy{
