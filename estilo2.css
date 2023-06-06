@@ -225,9 +225,7 @@ margin: 3em 3em 0em 3em;
 }
 
 /* index tercero tps */
-/* main{
-     background-color: aqua;
-} */
+
 
 .tpstodo{
     flex-direction: column;
@@ -437,6 +435,465 @@ margin-top: 1em;
     }
     .joakidosdos{
        margin-top: 0.5em; 
+    }
+
+}
+              /* termina el responsive celular */
+
+               /* empieza responsive tablet */
+
+@media screen  and (min-width: 768px) and (max-width: 1023px){
+
+   
+
+    body{
+        flex-direction: column;
+        height: 100vh;
+       }
+    /* menu responsive */
+    .headerdos{
+        height: 7em;
+        
+    }
+    .headeruno{
+        display: none;
+    }
+    ul{
+        list-style: none;
+       }
+    .menuuno{
+        display: none;
+    }
+    .navuno{
+        display: none;
+    }
+    .navresponsive{
+        display: block;
+       position: relative;
+     height: 7em;
+       background-color: rgb(22, 107, 187);
+
+      
+     }
+     
+    .checkbox, .xxx, .burga{
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        top: 1.5em;
+        right: 1.2em;
+    cursor: pointer;
+    
+    }
+     .xxx, .burga{
+        pointer-events: none;
+        width: 5em;
+        height: 5em;
+        top: 1em;
+        right: 0.8em;
+     }
+     .checkbox{
+        opacity: 0;
+     }
+    
+     .xxx{
+        display: none;
+     }
+    .checkbox:checked ~ .burga{
+        display: none;
+    }
+    .checkbox:checked ~ .xxx{
+        display: block;
+    }
+    
+    
+    .menuresponsive{
+       display: none;
+        position: absolute;
+        top: 7em;
+        right: 0em;
+       
+    }
+    .menuresponsive li a{
+    text-decoration: none;
+    color: rgb(6, 21, 102);
+    background-color: rgb(33, 126, 214);
+    display: block;
+    padding: 1em 6em 1em 1em;
+    border: 0.1em solid transparent;
+    font-size: 1.7em;
+    }
+    .imguno{
+        margin-left: 1em; 
+       top: 0.8em;
+       width: 1.6em;
+    }
+    .imgdos{
+        margin-left: 1em;
+        top: 4em; 
+        width: 1.8em;
+    }
+    .imgtres{
+        margin-left: 1em;
+        top: 7.4em;
+        width: 1.8em;
+    }
+    .imgcuatro{
+        margin-left: 1em;
+        top: 10em;
+        width: 3em;
+    }
+    .menuresponsive img{
+        position: absolute;
+        
+    }
+    
+    .aahe:hover{
+        background-color: rgb(22, 107, 187)
+    }
+    .aa:hover{
+        background-color: rgb(22, 107, 187)
+    }
+    
+    .checkbox:checked ~ .menuresponsive{
+        display: block;
+     z-index: 2;
+    }
+    .logojsss{
+        margin-top: 0.09em;
+        width: 7em;
+    }
+    
+    /* inicio */
+    main{
+        width: 95%;
+        margin: auto;
+    }
+
+ .iniciodiv{
+    flex-direction: column;
+  align-items: start;
+
+}
+.logotipo{
+    margin-top: 0em;
+    margin-left: 13em;
+    width: 18em;
+    
+    
+}
+.holasoy{
+    font-size: 1.8em;
+    line-height: 1.7em;
+margin-left: 0em;
+margin-top: 1em;
+}
+.desarrollador br {
+    display: none;
+}
+.desarrollador{
+    font-size: 2.3em;
+    margin-left: 0em;
+    margin-top: 0em;
+    color: rgb(20, 26, 97);
+    z-index: 1;
+}
+.contactme{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 8.5em ;
+    margin-left: 5em;
+    border: 0.15rem solid rgb(148, 187, 222);
+    background-color: transparent;
+    padding: 0.7em 2.8em;
+}
+
+.yop{
+
+    display: none;
+    }
+.yopdos{
+    display: block;
+ filter: grayscale(120%);
+position: absolute;
+width: 16em;
+margin-left: 26em;
+margin-top: -7.7em;
+
+}
+
+/* habilidades y expericnecia */
+.aeletras{
+    font-size: 15rem;
+    margin-top: -1.4em;
+    margin-left: 0.5em;
+}
+.habilidades{
+    font-size: 1.1em;
+    margin-top: -15em;
+    margin-left: 2em;
+   
+}
+.cuadrao{
+margin-top: -29.3em;
+width: 1em;
+margin-left: 0.4em;
+}
+.letrota{
+    margin-top: -4em;
+    margin-left: 6em;
+}
+
+
+.explogos{
+    margin-top: 15em;
+   justify-content: space-between;
+   margin-left: 5em;
+    margin-right: 5em;
+}
+.codigondario{
+    width: 4.3em;
+    margin-left: -0.9em;
+}
+.codigondarioo{
+    width: 4.5em;
+    margin-left: 1em;
+}
+.mastres{
+font-size: 1.1rem;
+margin-right: -1.9em;
+}
+.masdos{
+    font-size: 1.1rem;
+    margin-left: -2.1em;
+}
+
+.muchotexto{
+    font-size: 1.2rem;
+    text-align:start;
+margin: 3em 0em 0em -2em;
+
+}
+.muchotexto br{
+    display: none;
+}
+.barritas{
+    margin-left: -2em;
+    margin-top: 2.5em;
+    font-size: 1.2em;
+}
+
+/* mis trabajos */
+
+.tpstodo{
+    flex-direction: column;
+}
+
+.lat{
+    font-size: 17rem;
+    margin-left: 0.78em;
+    margin-top: 0.2em;
+ 
+}
+.laburo{
+    font-size: 1.1em;
+    margin-top: 2.6em;
+    margin-left: 7em;
+}
+.cuadradito{
+width: 1em;
+margin-top: 4.2em;
+}
+.letrasa{
+margin-top: -1em;
+margin-left: 4em;
+}
+
+.wrapp{
+    margin-left: 8.5em;
+    margin-top: 8em;
+}
+.contenedor{
+    margin-bottom: 1.1em;
+    margin-right: 1.1em;
+cursor: url(imagenes/manito.png), auto;
+}
+
+.contenedor{
+    width: 14em;
+    height: 14em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+     display: flex;
+     float: left;
+     background: #fff;
+     
+}
+.contenedor .mascara{
+    width: 14em;
+    height: 14em;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.trabajouno{
+    width: 14em;
+    height: 14em;
+ display: block;
+    position: relative;
+}
+.html{
+    display: inline-block;
+    padding: 0.02em 0.03em;
+    background: rgb(6, 21, 102);
+    color: white;
+    margin-right: 1em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+.css{
+    display: inline-block;
+    padding: 0.02em 0.03em;
+    background: rgb(6, 21, 102);
+    color: white;
+    font-size: 1.5em;
+}
+
+/* contactarmeee */
+
+.cgrande{
+    font-size: 17rem;
+    margin-left: 0.78em;
+    margin-top: 0.2em;
+ 
+}
+.contacto{
+    font-size:  1.1em;
+    margin-top: 3em;
+    margin-left: 7em;
+}
+.cuadradoo{
+width: 1em;
+margin-top: 3.4em;
+}
+.cmas{
+margin-top: -2em;
+margin-left: 3em;
+}
+
+.contactarmetoodo{
+    flex-direction: column;
+    align-content: start;
+}
+.formularios{
+    margin-left: 1em;
+    margin-right: 13em;
+}
+/* nombre */
+.divnombre{
+    display: flex;
+    border: 0.15rem solid rgb(104, 161, 210);
+    margin-top: 8em;
+    padding: 0.3em 0em 0.3em 0em;
+    
+    }
+    .nombre{
+        border: none ;
+        outline: none;
+        margin-left: 0.5em;
+        font-weight: 700;
+        opacity: 60%;
+        width: 140%;
+        font-size: 1.1em;
+    }
+    .usuario{
+        margin-left: 0.2em;
+        width: 1.3em;
+    }
+    
+    /* email */
+    .divemail{
+        display: flex;
+        border: 0.15rem solid rgb(104, 161, 210);
+        margin-top: 1.1em;
+        padding: 0.3em 0em 0.3em 0em;
+        
+        
+        }
+        .email{
+            border: none ;
+            outline: none;
+            margin-left: 0.5em;
+            font-weight: 700;
+            opacity: 60%;
+            width: 87%; 
+            font-size: 1.1em;
+        } 
+        .fotimail{
+            margin-left: 0.2em;
+            width: 1.3em;
+        }
+        /* asunto */
+        .divasunto{
+            border: 0.15rem solid rgb(104, 161, 210);
+            margin-top: 1.1em;
+            padding: 0.3em 0em 0.3em 0em;
+        }
+        .asunto{
+            color: rgb(21, 113, 192) ;
+            margin-left: 0.2em;
+           position: absolute;
+           font-size: 1.2em;
+           
+        }
+        .asuntoborde{
+            border: none; 
+            outline: none; 
+            width:  70% ;
+            padding-left: 5.2em;
+            font-size: 1.2em;
+        }
+    
+        /* ayuda */
+    .ayuda{
+        margin-top: 1.1em;
+      width: 30em;
+      height: 15em;
+          border: 0.15rem solid rgb(21, 113, 192) ;
+        outline: none;
+        font-weight: 900;
+        opacity: 60%; 
+    resize: none;
+    padding: 1em 1.5em 0em 1.5em;
+    overflow: hidden;
+    font-size: 1.3em;
+    }
+    
+    .angulo{
+        width: 2.5em;
+        position: absolute;
+        margin-top: -2.6em;
+        margin-left: 32.8em;
+    }
+    
+    .divmailfinal{
+        display: flex;
+        margin-top: 1.5em;
+        
+    }
+    .mailultima{
+        margin-right: 1.5em;
+        width: 2.2em;
+        margin-bottom: 0.6em;
+    }
+    .joakidosdos{
+       margin-top: 0.3em; 
+       font-size: 1.4em;
     }
 
 
